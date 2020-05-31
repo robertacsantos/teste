@@ -91,8 +91,13 @@ nav.navbar-transparente {
 
 #recursos {
 	color: white;
+<<<<<<< HEAD
 	background: url(../imagens/oficia.png),
 		linear-gradient(50deg,#ff4169,#7c26f8);
+=======
+	background: url(../imagens/background.png),
+	linear-gradient(50deg,#ff4169,#7c26f8);
+>>>>>>> 2f6fc40e440567e6bdc9181e0037dba60b361b4e
 	background-attachment: fixed;
 }
 
@@ -244,4 +249,22 @@ figure:hover{
 .wwa {
 	padding-left: 40px;
 	padding-right: 40px;
+<<<<<<< HEAD
+=======
+}
+
+#home img {
+	margin-top: 150px;
+	width: 200px;
+	height: 200px;
+}
+
+#home h1 {
+	font-size: 30px;
+}
+
+footer .col-md-4 {
+	display: block;
+	float: right;
+>>>>>>> 2f6fc40e440567e6bdc9181e0037dba60b361b4e
 }
