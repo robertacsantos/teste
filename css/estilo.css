@@ -8,14 +8,12 @@ html, body, #home {
 
 body {
 	background: url(../imagens/oficial.png),
-				url(../imagens/ruido.png),
-				linear-gradient(50deg,#ff4169,#7c26f8);
+		linear-gradient(50deg,#ff4169,#7c26f8);
 	background-attachment: fixed;
 	font-family: 'Open Sans Condensed', sans-serif;	
 }
 
-/* Barra de navegação
------------------------------*/
+
 nav.navbar-transparente {
 	padding: 15px 0px;
 	background: rgba(0,0,0,0.75);
@@ -40,8 +38,7 @@ nav.navbar-transparente {
 	margin: 12px 15px;
 }
 
-/* Capa
------------------------------*/
+
 .capa {
 	text-align: center;
 }
@@ -94,6 +91,9 @@ nav.navbar-transparente {
 
 #recursos {
 	color: white;
+	background: url(../imagens/oficia.png),
+		linear-gradient(50deg,#ff4169,#7c26f8);
+	background-attachment: fixed;
 }
 
 #servicos h2, h3 {
@@ -230,4 +230,18 @@ p {
 
 figure:hover{
 	color: white;
+}
+
+#servicos a {
+	color: rgba(25,25,112,0.7);
+}
+
+#servicos a:hover{
+	color: rgba(0,0,0,0.7);
+	text-decoration: none;
+}
+
+.wwa {
+	padding-left: 40px;
+	padding-right: 40px;
 }
